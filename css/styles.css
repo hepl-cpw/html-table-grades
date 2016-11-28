@@ -1,0 +1,31 @@
+table {
+    caption-side: bottom;
+    border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
+    width: 60em;
+}
+
+caption {
+    font-size: .9em;
+    text-align: right;
+    margin-top: .5em;
+    font-style: italic;
+}
+
+th, td {
+    border: 1px solid rgb( 153, 153, 153 );
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: .2em;
+}
+
+th {
+    background-color: #cfcfcf;
+    font-weight: bold;
+}
+
+.vide {
+    background-color: transparent;
+    border: none;
+}
